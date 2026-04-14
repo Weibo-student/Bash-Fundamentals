@@ -8,7 +8,7 @@ COMMENT
 There are two main types of the quotation:
 
 Single Quotes(' '): it provides full quoting. 
-Every cahracter within the quotes will be showed literally.
+Every character within the quotes will be showed literally.
 
 Double Quotes(" "): it provides partial quoting. 
 It shows the literal value of most characters but still allow the shell to have the dollar sign, backticks and backslashes.
