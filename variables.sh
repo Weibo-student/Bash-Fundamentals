@@ -17,3 +17,6 @@ example1="example"
 # This is how to call the variable in bash, we must put the $ before the variable name
 # This is also how to echo the variable, it will print the varible in the terminal.
 echo $example1
+
+# Common issue / msitakes: the most command issues here should be the syntax issues,
+# It's also easy to trouple shoot, search for the basic syntax for variable will help.
