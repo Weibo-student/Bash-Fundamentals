@@ -27,3 +27,6 @@ quotation_example2='echo $quotation_example'
 $quotation_example1
 $quotation_example2
 echo "$quotation_example"
+
+# Common issue / msitakes: Forget to end the quotation, use single quote when you have a variable in it"
+# Solution: Be more careful with difference between different quotations"
