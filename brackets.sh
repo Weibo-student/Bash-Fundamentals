@@ -12,3 +12,11 @@ fi
 if [[ 3 < 5 ]]; then
     echo "True"
 fi
+
+# The second type is the Round Brackets () and ((())
+# This is the single round bracket, it creates a subshell
+(x=5; echo $x)
+echo $x
+#The second echo print nothing because the variable x only decleared in the subshell
+# This is the doble round bracket, it's for the math operations
+echo $(( 3 + 5 ))
