@@ -15,3 +15,4 @@ read -p "Enter the example: " example
 echo $example
 
 # Common issue / msitakes: I think it's common to use just read and forget to give any prompts which is very confusing.
+# Always use -p to read the input

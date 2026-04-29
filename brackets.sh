@@ -30,4 +30,8 @@ example_function(){
 }
 example_function
 
-# Common issue / msitakes: I think it's common to forget about putting space between brackets and other things inside
+# Common issue / msitakes: When using the single square brackets, put the <, =, > insdie, also users might forget what are the command for comparing
+# Use the "man" command or web search to get all the command we could put inside
+
+# Common issue / msitakes: Mess up with the single round brackets and double round brackets
+# More practice will be good.

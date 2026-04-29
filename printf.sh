@@ -12,3 +12,4 @@ echo -e "\nhello\n"
 
 # Most of the commen functions are the the same for echo and printf
 # The comment issues is messing up with the / and \ or don't know aobut which parameter to use
+# More practice will be good
