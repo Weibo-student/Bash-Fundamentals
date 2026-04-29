@@ -10,3 +10,6 @@ read example
 echo $example
 # But it doesn't come with any prompts which might confuse the users
 
+# We could add the -p to give the prompt
+read -p "Enter the example: " example
+echo $example
