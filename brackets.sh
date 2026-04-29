@@ -1,7 +1,9 @@
 #!/bin/bash
 
-# In Bash, Brackets are several distinct symbols used for logic, math, and variable handling. 
-# There are some different types of brackets in Bash.
+: <<'COMMENT'
+In Bash, Brackets are several distinct symbols used for logic, math, and variable handling. 
+There are some different types of brackets in Bash.
+COMMENT
 
 # The first type is Square Brackets [ ] and [[ ]]
 # This is the single square bracket, you must use -gt -eq instead of the > of =
