@@ -8,7 +8,12 @@ COMMENT
 example=(example1 example2 example3)
 # You should have a space between each element
 
-# This is how you call an arrwy
+# This is how you can get one element in the arrey
 echo ${example[0]}
 # You need the curly brackets surrounds the arrey
 # The number you put in the square is which elements do you want, 0 is the first one.
+
+# This is how you can get all the elements in the arrey
+echo ${example[@]}
+# Add the @ into the square brackets to get all the elements
+
