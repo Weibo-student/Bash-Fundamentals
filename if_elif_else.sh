@@ -18,3 +18,8 @@ elif (( example == 10 )); then
 else
     echo "less than 10"
 fi
+
+# Common issue / msitakes: It's common to mess up with the brackets, more details in brackets.sh
+# it's also easy to forget about the fi in the end
+# The most common mistakes should be that user input might not what the coder expectes
+# The way to solve it is add more check before the variable go into the if statement
