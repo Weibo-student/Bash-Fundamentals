@@ -17,3 +17,5 @@ echo ${example[0]}
 echo ${example[@]}
 # Add the @ into the square brackets to get all the elements
 
+# Common issue / msitakes: I think it's common to use the round brackets instead of square brackets, because that's how you create an arrey
+# More practice should be enough for this 
