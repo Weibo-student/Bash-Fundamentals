@@ -6,7 +6,7 @@ It's very similar to the case statement but it's bettet to handle the situation 
 COMMENT
 
 # Get a variable from user to do the if statement
-read -p "Please enter a number" eexampleample
+read -p "Please enter a number" example
 
 # If the user input is greater than 10, echo "greater than 10"
 if (( example > 10 )); then
