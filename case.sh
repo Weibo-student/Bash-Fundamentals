@@ -23,3 +23,6 @@ case "$example" in
     echo "It's other numbers"
     ;;
 esac
+
+# Common issue / msitakes: it's common to forget about the ;; and esac in the end
+# Use web search or other things to figure out the syntax for this
