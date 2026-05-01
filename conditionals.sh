@@ -29,5 +29,6 @@ elif [ $example1 -eq $example2 ]; then
     echo "two numbers are the same"
 fi
 
-
+# Common issue / msitakes: Mess up with the different brackets or different parameters
+# To solve it, we could read the documentation and practice more"
 
