@@ -21,10 +21,13 @@ read -p "please enter another number: " example2
 # If the number in example1 is greater than example2
 if [ $example1 -gt $example2 ]; then
     echo "example1 is greater than example2"
-# 
+# If the number in example1 is less than example2
 elif [ $example1 -lt $example2 ]; then
     echo "example1 is less than example2"
+# If the two numbers are the same
 elif [ $example1 -eq $example2 ]; then
     echo "two numbers are the same"
 fi
+
+
 
