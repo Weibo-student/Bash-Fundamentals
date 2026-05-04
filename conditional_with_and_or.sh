@@ -16,3 +16,8 @@ if [[ 5 -gt 3 || 5 -lt 3 ]]; then
   echo "true"
 fi
 
+# Common issue / msitakes: I think it's common to mess up with the brackets too.
+# When you use single square brackets, you need to have to brackets and put the && or || in between.
+# But when you have double square brackets, you need to put the operators in the brackets.
+ 
+
