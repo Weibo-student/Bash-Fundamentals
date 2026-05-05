@@ -31,8 +31,17 @@ Git is very useful. It's a **version control tool**, it records the different ve
 
 It's also very important to the industry. Git can show employers how well their skills is, how often they write code. It's also good for programmers because they can show their git like a portfolio.
 
+---
+
 ## Challenge I have overcamd
 
 The one challenge I have overcame was **writing comment**.
 
 I ovecame it by looking at other's code to learn how to write comment and try to explain the code better.
+
+---
+
+## How will I add complexity to the code
+
+I will try to do more research about the topic we have and explore more aobut each topics. 
+
