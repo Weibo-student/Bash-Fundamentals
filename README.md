@@ -30,3 +30,9 @@ The documentation servers like a **dictionary** when learning language.Whenever 
 Git is very useful. It's a **version control tool**, it records the different version of each commits. It allows us **go back** when we made mistakes, we could still go back to the ealier version.
 
 It's also very important to the industry. Git can show employers how well their skills is, how often they write code. It's also good for programmers because they can show their git like a portfolio.
+
+## Challenge I have overcamd
+
+The one challenge I have overcame was **writing comment**.
+
+I ovecame it by looking at other's code to learn how to write comment and try to explain the code better.
