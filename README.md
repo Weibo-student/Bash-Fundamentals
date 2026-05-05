@@ -24,3 +24,9 @@ It's also better than the notes I have written on the notebook or Obsidian becau
 The documentation servers like a **dictionary** when learning language.Whenever I'm **confused** about something or there are **confliction** in the web search, I will check the documentation. Because it's most **accurate** source I could relay on.
 
 ---
+
+## The perpose of using Git
+
+Git is very useful. It's a **version control tool**, it records the different version of each commits. It allows us **go back** when we made mistakes, we could still go back to the ealier version.
+
+It's also very important to the industry. Git can show employers how well their skills is, how often they write code. It's also good for programmers because they can show their git like a portfolio.
