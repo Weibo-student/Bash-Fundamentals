@@ -25,7 +25,7 @@ The documentation servers like a **dictionary** when learning language.Whenever 
 
 ---
 
-## The perpose of using Git
+## The purpose of using Git
 
 Git is very useful. It's a **version control tool**, it records the different version of each commits. It allows us **go back** when we made mistakes, we could still go back to the ealier version.
 
