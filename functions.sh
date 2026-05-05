@@ -23,3 +23,11 @@ function example_function2(){
 example_function1
 example_function2
 # It's literally just type the function name
+
+# The one of the most common mistakes to make here is call the function before the function is defined
+example_function3
+example_function3(){
+    echo "This is example function 3"
+}
+# functions.sh: line 28: example_function3: command not found This is the error you will get
+# Way to solve: always check the structure of the code. I you see the error above, it means you either make a typo or call it before it defined.
