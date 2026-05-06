@@ -31,3 +31,11 @@ example_function3(){
 }
 # functions.sh: line 28: example_function3: command not found This is the error you will get
 # Way to solve: always check the structure of the code. I you see the error above, it means you either make a typo or call it before it defined.
+
+# You could also pass some parameters to the functions
+example="Thisi is example function 4"
+example_parameter_function(){
+    # $1 is the first parameter passed to the functions
+    echo $1
+}
+example_parameter_function example # The example variable will be the $1
