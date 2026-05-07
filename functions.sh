@@ -48,3 +48,7 @@ example_function5(){
     echo $local_example
 }
 example_function5
+# The local variables only works in the function that you declare it.
+# So never call the local variables outside the function
+
+
