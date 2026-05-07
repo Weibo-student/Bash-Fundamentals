@@ -51,4 +51,10 @@ example_function5
 # The local variables only works in the function that you declare it.
 # So never call the local variables outside the function
 
-
+# In bash, you could have return values for the function
+example_function6(){
+    return 6 # But you can only return a number in bash
+}
+example_function6
+echo $?
+# $? is the variable for the return value.
