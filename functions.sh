@@ -39,3 +39,5 @@ example_parameter_function(){
     echo $1
 }
 example_parameter_function example # The example variable will be the $1
+
+# The bash function take 9 parameters ($1 - $9), if you want to pass more than that, you need to add a curly bracket like ${11}.
