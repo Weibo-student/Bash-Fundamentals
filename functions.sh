@@ -33,11 +33,18 @@ example_function3(){
 # Way to solve: always check the structure of the code. I you see the error above, it means you either make a typo or call it before it defined.
 
 # You could also pass some parameters to the functions
-example="Thisi is example function 4"
+example="This is example function 4"
 example_parameter_function(){
     # $1 is the first parameter passed to the functions
     echo $1
 }
-example_parameter_function example # The example variable will be the $1
-
+example_parameter_function "$example" # The example variable will be the $1
+# Remember to add the double quote surrounding it.
 # The bash function take 9 parameters ($1 - $9), if you want to pass more than that, you need to add a curly bracket like ${11}.
+
+# In bash, you could declare some variables that only works in one function with the "local"
+example_function5(){
+    local local_example="This is example function 5"
+    echo $local_example
+}
+example_function5
