@@ -27,5 +27,8 @@ echo ${example3:=default_example3}
 echo $example3
 
 # Thia is the easiest one, it will through an error and replace the error message as mine
-# like this: default_value.sh: line 29: example4: THe example4 does not declare
+# like this: default_value.sh: line 31: example4: THe example4 does not declare
 echo ${example4:?The example4 does not declare}
+
+# The most common issues that I make is mess up with different types because they are too similar
+# Read the error message will help
