@@ -9,3 +9,9 @@ ${var:=default} Declare and assign the default in the var
 ${var:?error} Through an error if the var is empty
 COMMENT
 
+# This is the first type, I didn't declare the variable but it still outputs default_example
+echo ${example:-default_example}
+# I created the variable this time but I didn't assign any values, but it still outputs default_example
+example=""
+echo ${example:-default_example}
+
