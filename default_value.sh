@@ -15,3 +15,8 @@ echo ${example:-default_example}
 example=""
 echo ${example:-default_example}
 
+# This is the second type, I didn't decalre the variable, so it only outputs the default_example2
+echo ${example2-default_example2}
+# However, after I created the variable, it outputs nothing this tine.
+example2=""
+echo ${example2-default_example2}
