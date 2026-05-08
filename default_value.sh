@@ -25,3 +25,7 @@ echo ${example2-default_example2}
 echo ${example3:=default_example3}
 # After it outputs the default_example3, it automatically creates the variable and assign the default value to it 
 echo $example3
+
+# Thia is the easiest one, it will through an error and replace the error message as mine
+# like this: default_value.sh: line 29: example4: THe example4 does not declare
+echo ${example4:?The example4 does not declare}
