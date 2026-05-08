@@ -20,3 +20,8 @@ echo ${example2-default_example2}
 # However, after I created the variable, it outputs nothing this tine.
 example2=""
 echo ${example2-default_example2}
+
+# This is the thirs type, it outputs the default_example3 because I didn't create the variable
+echo ${example3:=default_example3}
+# After it outputs the default_example3, it automatically creates the variable and assign the default value to it 
+echo $example3
