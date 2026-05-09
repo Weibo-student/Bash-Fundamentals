@@ -30,4 +30,3 @@ done
 # While true is used for whenever you don't know how many times should it loop.
 # But be careful about it, remember add something that could break the loop.
 # When the loop doesn't end when it's suppose to, it's either forgetting to add the break or the break condition is not triggered
- 
