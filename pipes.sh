@@ -8,3 +8,6 @@ COMMENT
 # You can use pipe to do different commands in the same time
 printf "hello \nworld" | grep world
 # In the command above, it only outputs world because after outputing the hello \n world, world is the only thing that grep is looking for
+
+printf "hello\ntworld\nhello\nworld\n" | wc -l
+# We could also use it to count how many lines are there
