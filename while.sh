@@ -14,3 +14,16 @@ do
     echo "It's $example_num"
     ((example_num++)) # Increment the number
 done
+
+# There's one specia type while loop that do not require a variable
+# But this loop will run forever
+while true
+do
+    echo "This will run forever..."
+    sleep 1
+    ((example_num++))
+    if [ $example_num -ge 10 ]; then
+        # You could use break to break the loop
+        break
+    fi
+done
