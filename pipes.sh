@@ -16,3 +16,6 @@ printf "hello\ntworld\nhello\nworld\n" | wc -l
 printf "hello\ntworld\nhello\nworld" | grep world | wc -l
 # First find all the world and then count how many world are there
 
+# Be careful when using the ls, cp or mv.
+# When you want to add command to the right of the pipe, it can only affect the things in terminal.
+# So the commands that made change to the system like ls or mv won't work there
