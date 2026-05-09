@@ -11,3 +11,8 @@ printf "hello \nworld" | grep world
 
 printf "hello\ntworld\nhello\nworld\n" | wc -l
 # We could also use it to count how many lines are there
+
+# We could also add more commands into it
+printf "hello\ntworld\nhello\nworld" | grep world | wc -l
+# First find all the world and then count how many world are there
+
