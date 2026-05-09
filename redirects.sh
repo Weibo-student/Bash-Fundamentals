@@ -30,3 +30,8 @@ echo "Hello" > ./examples/example1.txt
 # The >> will only add more things in
 echo "This is the second example" >> ./examples/example1.txt
 
+# Create a file for example
+touch ./examples/example2.txt
+# The 2> only put the error messages into the file, but the normal ouptut still shows in the terminal
+echo "This is the third example" 2> ./examples/example2.txt
+mkdir examples 2> ./examples/example2.txt
