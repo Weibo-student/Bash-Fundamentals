@@ -16,4 +16,10 @@ There are five main types of redirection
 2>&1 (Combine Streams): Redirects stderr to the same destination as stdout.
 COMMENT
 
-touch example.txt
+# Create a foleder to have demos
+mkdir -p examples
+
+# Create a file for example
+touch ./examples/example.txt
+# The > will overwrite the file, it will erase the whole file and then put thigns in.
+echo "This is the firsr example" > ./examples/example.txt
