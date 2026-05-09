@@ -16,3 +16,4 @@ There are five main types of redirection
 2>&1 (Combine Streams): Redirects stderr to the same destination as stdout.
 COMMENT
 
+touch example.txt
