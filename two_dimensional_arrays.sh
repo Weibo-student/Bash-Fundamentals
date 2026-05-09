@@ -14,3 +14,9 @@ example_2d_arrey[0,0]=1
 example_2d_arrey[0,1]=2
 example_2d_arrey[1,0]=3
 example_2d_arrey[1,1]=4
+
+# Print all of the numbers
+echo ${example_2d_arrey[@]}
+
+# It's really easy to forget about the declare
+# When the output is not what you want, it might because you don't have declare so bash treats it like a normal variable
