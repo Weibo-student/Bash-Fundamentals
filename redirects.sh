@@ -23,3 +23,10 @@ mkdir -p examples
 touch ./examples/example.txt
 # The > will overwrite the file, it will erase the whole file and then put thigns in.
 echo "This is the firsr example" > ./examples/example.txt
+
+# Create a file for example
+touch ./examples/example1.txt
+echo "Hello" > ./examples/example1.txt
+# The >> will only add more things in
+echo "This is the second example" >> ./examples/example1.txt
+
