@@ -45,3 +45,5 @@ ls redirects.sh example.sh &> ./examples/example3.txt
 touch ./examples/example4.txt
 # It's the same as &>
 ls redirects.sh example.sh > ./examples/example4.txt 2>&1
+
+# It's easy to mess up with these different operators, so practicing might be a way to memorize them
