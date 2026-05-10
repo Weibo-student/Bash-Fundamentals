@@ -40,3 +40,8 @@ mkdir examples 2> ./examples/example2.txt
 touch ./examples/example3.txt
 # The &> put all the outputs (normal and error) into the file
 ls redirects.sh example.sh &> ./examples/example3.txt
+
+# Create a file for example
+touch ./examples/example4.txt
+# It's the same as &>
+ls redirects.sh example.sh > ./examples/example4.txt 2>&1
