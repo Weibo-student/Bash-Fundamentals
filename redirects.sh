@@ -35,3 +35,8 @@ touch ./examples/example2.txt
 # The 2> only put the error messages into the file, but the normal ouptut still shows in the terminal
 echo "This is the third example" 2> ./examples/example2.txt
 mkdir examples 2> ./examples/example2.txt
+
+# Create a file for example
+touch ./examples/example3.txt
+# The &> put all the outputs (normal and error) into the file
+ls redirects.sh example.sh &> ./examples/example3.txt
