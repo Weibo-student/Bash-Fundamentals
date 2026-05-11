@@ -18,3 +18,9 @@ for i in "${example_arr[@]}"
 do
     echo $i
 done
+
+# You could also use range like python
+for i in {1..4}
+do
+    echo $i
+done
