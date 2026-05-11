@@ -24,3 +24,13 @@ for i in {1..4}
 do
     echo $i
 done
+
+# create a folder and file for example
+mkdir -p examples
+touch ./examples/for_example.txt
+printf "1\n2\n3\n4" > ./examples/for_example.txt
+# You could also use a for loop to read all the things in a file
+for i in $(cat ./examples/for_example.txt)
+do
+    echo $i
+done
