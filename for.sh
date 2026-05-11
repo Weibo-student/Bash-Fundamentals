@@ -4,3 +4,9 @@
 In Bash, a for loop is a control flow statement used to automate repetitive tasks by executing a set of commands once for each item in a specified list.
 COMMENT
 
+# This is a basic bash for loop
+for i in 1 2 3 4
+do
+    echo $i
+done
+# You have to provide a list after the variable, it could could any data type (They will all trun into strings anyway)
