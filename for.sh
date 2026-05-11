@@ -10,3 +10,11 @@ do
     echo $i
 done
 # You have to provide a list after the variable, it could could any data type (They will all trun into strings anyway)
+
+# You could also use a array
+example_arr=("1" "2" "3" "4")
+
+for i in "${example_arr[@]}"
+do
+    echo $i
+done
