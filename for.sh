@@ -34,3 +34,16 @@ for i in $(cat ./examples/for_example.txt)
 do
     echo $i
 done
+
+# You could also use for to create a infinity loop like while true
+example_num=0
+for (( ; ; ))
+do 
+    echo "This will run forever..."
+    sleep 1
+    ((example_num++))
+    if [ $example_num -ge 5 ]; then
+        # You could use break to break the loop
+        break
+    fi
+done
