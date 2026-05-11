@@ -53,3 +53,6 @@ for ((i=0; i<5; i++))
 do 
     echo $i
 done
+
+# I think it's easy to mix up with the bash for loop and C-style loop
+# They have completely dofferent syntaxs 
